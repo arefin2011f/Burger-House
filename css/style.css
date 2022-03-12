@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+}
+h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+a, a:hover{
+    text-decoration: none;
+}
+p{
+   font-family: 'Montserrat', sans-serif;
+}
+.fa-long-arrow-right:hover{
+    margin: 0px 0px 0px 20px;
+}
+/* ********************************************
+*Burger code start here
+*********************************************** */
+/* header start */
+.header{
+    width: 100%;
+    background: url("../images/banner-bg.png") center top no-repeat ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .bg-light{
+    background: transparent !important;
+}
+.header .navbar-site{
+    margin: 0px 0px 0px 100px;
+}
+.header .navbar-collapse{
+    position: absolute;
+    top: 5rem;
+    right: 7rem;
+}
+.header .navbar-nav .nav-link.active, .header .navbar-nav .nav-link:focus, .header .navbar-nav .nav-link:hover{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    transition: all 1s;
+}
+.header .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+}
+/* banner start */
+.banner{
+    width: 100%;
+    padding: 20px 0px;
+}
+.banner p{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px dashed #000;
+    margin: 200px 0px 0px;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+}
+.banner h1{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 8vw;
+    font-weight: 900;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 4px;
+    text-shadow: 3.936px 4.528px 0px #fff;
+}
+.banner h1 span{
+    display: block;
+    font-size: 4.5vw;
+}
+/* group start */
+.group{
+    width: 100%;
+    padding: 60px 0px;
+}
+/* group end */
+
+/* choose & enjoy start */
+.choose{
+    width: 100%;
+    padding: 60px 0px 40px;
+    background-color: #fff;
+}
+.choose .title h4{
+    width: fit-content;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: 0px auto;
+    padding: 7px 15px;
+}
+.choose .title h2{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+.choose .title p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    margin: 0px auto 50px;
+    width: 70%;
+}
+.choose .mini-enjoy{
+    width: 100%;
+    text-align: center;
+}
+.mini-enjoy h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3d2514;
+}
+.mini-enjoy p{
+    color: #3d2514;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.mini-enjoy img{
+    transition: all 1s;
+    height: 300px;
+}
+.mini-enjoy img:hover{
+    padding: 20px;
+}
+.mini-enjoy .btn{
+    padding: 12px 35px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 10px 0px 40px;
+}
+.mini-enjoy .btn:hover{
+    background-color: #5e5e5e;
+    transition: ease-in .3s;
+}
+/* choose & enjoy end*/
+
+/* slider start */
+.slider{
+    width: 100%;
+    background: #fff;
+    padding: 60px 0px;
+}
+.slider .wrapper{
+    width: 100%;
+    box-shadow: 18.656px 24.758px 43px 0px rgba(0, 0, 0, 0.17);
+    padding: 20px;
+}
+.slider h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #3d2514;
+}
+.slider h2{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+.slider p{
+    width: 460px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    position: absolute;
+    bottom: -10px;
+}
+/* slider end */
+
+/* reservation start */
+.reservation{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/reservation_bg.png") center center no-repeat;
+    background-size: cover;
+}
+.reservation .title{
+    text-align: center;
+    padding: 0px 0px 60px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.reservation ::placeholder{
+    color: #000;
+    font-family:"BebasNeueRegular";
+    font-weight: thick;
+    letter-spacing: 1px;
+}
+.reservation .btn{
+    background: #bf2222;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Alfa Slab One', cursive;;
+}
+.reservation .btn:hover{
+    background:#8e9008 ;
+}
+/* reservation end */
+
+/* footer start */
+.footer{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: url("../images/footer-bg.png") center center no-repeat;
+    background-size: cover;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    margin: 53px 0px;
+    width: 70%; 
+}
+.footer small{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer address{
+    padding: 80px 0px ; 
+}
+.footer address i{
+    font-size: 32px;
+    display: inline-block;
+    margin: 0px 30px 20px 0px;
+    color: #fff;
+}
+.footer address h5{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    
+}
+.footer .footer-icon{
+    text-align: right;
+    padding: 0px 0px 20px;
+}
+.footer .footer-icon .fa{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+.footer .footer-icon .fa:hover{
+    background-color: transparent;
+    color: #bf2222;
+}
+/* footer end */
